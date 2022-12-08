@@ -35,7 +35,7 @@
   ![image](https://user-images.githubusercontent.com/97836929/206371145-ef51673f-64ad-4c84-b65e-8ab946d527d5.png)
 
 ## __DataSplit__
-- 각 중증도 별로 Patient를 기주능로 8:1:1로 Split
+- 각 중증도 별로 Patient를 기준으로 8:1:1 비율로 Split
 
 ## __Study Design__
 
