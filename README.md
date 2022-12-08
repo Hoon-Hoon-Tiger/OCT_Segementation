@@ -51,3 +51,11 @@ Background, 망막, 맥락막을 포함하고 있는 __11classes Segmentation__
   - Batch Size : 8
   - Learning Rate : 0.001
   
+## __Problems__  
+- 현재 Mask를 기준으로 원본 이미지를 Cropping하였는데, 여기서 기준점 X
+   - 사전 연구에서는 황반을 중심으로 +-3mm 만큼에 해당하는 pixel 범위의 영역을 사용    
+      - 황반을 찾는 알고리즘 구현    
+        1. 원본 이미지에서 edge를 추출
+        2. edge 이미지의 각 열에서 가장 낮은 행 index만 추출
+        3. 이렇게 추출한 line에서 가장 낮은 행 index를 가지고 있는 Pixel의 row, col 찾기
+        
