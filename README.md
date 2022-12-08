@@ -1,5 +1,7 @@
 # 💡 Segmentation layer of retina and the choroid in OCT images
-- Background, 망막, 맥락막을 포함하고 있는 __11classes Segmentation__
+
+## __Purpose__   
+Background, 망막, 맥락막을 포함하고 있는 __11classes Segmentation__
 
 ## Requirements
 - Python 3.6.13
